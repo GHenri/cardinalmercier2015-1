@@ -50,22 +50,22 @@ public class Ip extends TrenteDeuxBits {
 		System.out.println(ip1+" est de classe "+
 				ip1.getClasse()
 		);
-		System.out.println(ip1 + " est privée ?"+
+		System.out.println(ip1 + " est privÃ©e ?"+
 				ip1.isPrive()
 		);
-		System.out.println(ip1 + " a comme masque par défaut /"+
+		System.out.println(ip1 + " a comme masque par dÃ©faut /"+
 				ip1.getDefaultSlash()
 		);
-		ip1 = new Ip("19.168.0.1");
+		/*ip1 = new Ip("19.168.0.1");
 		System.out.println(ip1+" est de classe "+
 				ip1.getClasse()
 		);
-		System.out.println(ip1 + " est privée ?"+
+		System.out.println(ip1 + " est privÃ©e ?"+
 				ip1.isPrive()
 		);
-		System.out.println(ip1 + " a comme masque par défaut /"+
+		System.out.println(ip1 + " a comme masque par dÃ©faut /"+
 				ip1.getDefaultSlash()
-		);
+		);*/
 	}
 
 }
